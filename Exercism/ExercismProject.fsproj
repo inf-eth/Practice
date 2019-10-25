@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Pangram.fs" />
+    <Compile Include="PangramTest.fs" />
+    <Compile Include="OcrNumbers.fs" />
+    <Compile Include="OcrNumbersTest.fs" />
+    <Compile Include="Allergies.fs" />
+    <Compile Include="AllergiesTest.fs" />
+    <Compile Include="RobotSimulator.fs" />
+    <Compile Include="RobotSimulatorTest.fs" />
+    <Compile Include="QueenAttack.fs" />
+    <Compile Include="QueenAttackTest.fs" />
+    <Compile Include="ArmstrongNumbers.fs" />
+    <Compile Include="ArmstrongNumbersTest.fs" />
+    <Compile Include="CollatzConjecture.fs" />
+    <Compile Include="CollatzConjectureTest.fs" />
+    <Compile Include="GradeSchool.fs" />
+    <Compile Include="GradeSchoolTest.fs" />
+    <Compile Include="Accumulate.fs" />
+    <Compile Include="AccumulateTest.fs" />
+    <Compile Include="HelloWorld.fs" />
+    <Compile Include="HelloWorldTest.fs" />
+    <Compile Include="Raindrops.fs" />
+    <Compile Include="RaindropsTest.fs" />
+    <Compile Include="Tests.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsUnit" Version="3.4.0" />
+    <PackageReference Include="FsUnit.xUnit" Version="3.4.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+
+</Project>
