@@ -16,7 +16,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Exercism</RootNamespace>
     <AssemblyName>Exercism</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>Exercism</Name>
@@ -105,8 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
-      <HintPath>..\packages\FSharp.Core.4.2.3\lib\net45\FSharp.Core.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\FSharp.Core.4.7.0\lib\net45\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="FsUnit.NUnit">
       <HintPath>..\packages\FsUnit.3.4.0\lib\net46\FsUnit.NUnit.dll</HintPath>
